@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header a{
+    color: black; 
+    cursor: pointer;
+    font-size: 14px;
+}
+#new-arrival{
+    margin-right: 12px;
+    justify-self: flex-end;
+}
+#new-arrival:hover{
+    color: #606470;
+}
+#account{
+    margin-left: 12px;
+}
+#account:hover{
+    font-size: 14.5px;
+    transition: 0.3s ease-in-out;
+    color: #606470;
+}
+#cart{
+    margin-left: 12px;
+}
+#cart:hover{
+    color: #606470;
+}
+#header-space{
+    flex: 1;
+}
+.brand{
+    background-color: #222831;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#brandname{
+    height: 80px;
+    width: 240px;
+    cursor: pointer;
+}
+.content{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content-slide{
+    background-color: salmon;
+    height: 500px;
+    width: 90%;
+    margin-block: 12px;
+    background-image: url('FangsOutSlide.png');
+    background-repeat: no-repeat;
+    background-size: 1000px 100%;
+    background-position: center;
+    filter: saturate(200%);
+    filter: brightness(70%);
+}
+#news{
+    width: 540px;
+    height: auto;
+    top: 350px;
+    left: 100px;
+    color: white;
+    position: absolute;
+}
+#news h2{
+    margin-bottom: 20px;
+}
+#news-letter{
+    background-color: black;
+    padding: 12px;
+    color: white;
+}
+#news-letter:hover{
+    padding: 13px;
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+#text{
+    width: 540px;
+    height: auto;
+    top: 350px;
+    right: 100px;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#text h2{
+    margin-bottom: 20px;
+}
+#text-letter{
+    background-color: black;
+    text-align: right;
+    padding: 12px;
+    color: white;
+}
+#text-letter:hover{
+    padding: 13px;
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+#category-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 12px;
+    gap: 12px;
+}
+#classic{
+    flex: 1;
+    height: 450px;
+    background-image: url('UnworldlyBTee.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+    filter: brightness(70%);
+}
+#classic:hover{
+    filter: brightness(100%);
+    transition: 0.3s ease-in-out;
+}
+#classic-nav{
+    width: 540px;
+    height: auto;
+    top: 850px;
+    left: 180px;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#classic-nav h2{
+    margin-bottom: 20px;
+}
+#classic-nav a{
+    background-color: black;
+    width: 70px;
+    padding: 12px;
+    color: white;
+}
+#classic-nav a:hover{
+    padding: 13px;
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#new-designs{
+    flex: 1;
+    height: 450px;
+    background-image: url('UnderDogWTee.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    cursor: pointer;
+    filter: brightness(70%);
+}
+#new-designs:hover{
+    filter: brightness(100%);
+    transition: 0.3s ease-in-out;
+}
+#newdesigns-nav{
+    width: 540px;
+    height: auto;
+    top: 850px;
+    left: 780px;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+#newdesigns-nav h2{
+    margin-bottom: 20px;
+}
+#newdesigns-nav a{
+    background-color: black;
+    width: 70px;
+    padding: 12px;
+    color: white;
+}
+#newdesigns-nav a:hover{
+    padding: 13px;
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.footer{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+}
